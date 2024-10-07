@@ -30,7 +30,7 @@ body {
 
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: top;
+    background-position: center;
     background-image: url("../gif/blueskygif.gif");
     background-size: cover;
     color: white;
@@ -75,6 +75,23 @@ p {
 }
 
 .container p {
+    flex: 1;
+    margin-right: 15vh;
+}
+
+.containerfooter {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerfooter img {
+    max-width: 30vh;
+    margin-right: 1vh;
+    margin-left: 5vh;
+}
+
+.containerfooter p {
     flex: 1;
 }
 
