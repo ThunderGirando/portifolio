@@ -102,7 +102,7 @@ p {
 }
 
 .containerfooter {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -395,9 +395,8 @@ img#competencias {
 }
 
 .containerfooter {
-    display: inline-flex;
+    display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 .containerfooter img {
