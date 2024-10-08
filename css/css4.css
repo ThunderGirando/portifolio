@@ -71,16 +71,16 @@ p {
 }
 
 .container img {
-    max-width: 35vh;
-    margin-right: 2.5vh;
-    margin-left: 2.5vh;
+    max-width: 25vh;
+    margin-right: 1vh;
+    margin-left: 0.5vh;
     margin-bottom: auto;
 }
 
 .container p {
     flex: 1;
-    margin-right: 0.5vh;
-    font-family: cursive;
+    margin-right: 1.3vh;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .containerinverted {
@@ -90,17 +90,17 @@ p {
 }
 
 .containerinverted img {
-    max-width: 35vh;
-    margin-right: 5vh;
-    margin-left: 1vh;
+    max-width: 25vh;
+    margin-right: 0.5vh;
+    margin-left: 0.5vh;
     margin-bottom: 10vh;
     margin-top: 10vh;
 }
 
 .containerinverted p {
     flex: 1;
-    margin-left: 5vh;
-    font-family: cursive;
+    margin-left: 1.3vh;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .containerfooter {

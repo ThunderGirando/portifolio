@@ -68,7 +68,7 @@ p {
 }
 
 .container img {
-  max-width: 30vh;
+  max-width: 15vh;
   margin-right: 2.5vh;
   margin-left: 2.5vh;
   margin-bottom: auto;
@@ -77,7 +77,8 @@ p {
 .container p {
   flex: 1;
   margin-right: 0.5vh;
-  font-family: cursive;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2vh;
 }
 
 .containerinverted {
@@ -97,7 +98,7 @@ p {
 .containerinverted p {
   flex: 1;
   margin-left: 5vh;
-  font-family: cursive;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .containerfooter {
