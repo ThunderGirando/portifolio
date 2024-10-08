@@ -67,16 +67,39 @@ p {
 .container {
     display: flex;
     align-items: center;
+    margin-top: 5vh;
 }
 
 .container img {
-    max-width: 30vh;
-    margin-right: 5vh;
+    max-width: 45vh;
+    margin-right: 10vh;
+    margin-left: 10vh;
+    margin-bottom: auto;
 }
 
 .container p {
     flex: 1;
     margin-right: 15vh;
+    font-family: cursive;
+}
+
+.containerinverted {
+    display: flex;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+.containerinverted img {
+    max-width: 45vh;
+    margin-right: 10vh;
+    margin-left: 15vh;
+    margin-bottom:5vh;
+}
+
+.containerinverted p {
+    flex: 1;
+    margin-left: 15vh;
+    font-family: cursive;
 }
 
 .containerfooter {
