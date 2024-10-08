@@ -71,34 +71,36 @@ p {
 }
 
 .container img {
-    max-width: 40vh;
-    margin-right: 10vh;
-    margin-left: 10vh;
+    max-width: 30vh;
+    margin-right: 2.5vh;
+    margin-left: 2.5vh;
     margin-bottom: auto;
 }
 
 .container p {
     flex: 1;
-    margin-right: 15vh;
+    margin-right: 0.5vh;
     font-family: cursive;
 }
 
 .containerinverted {
     display: flex;
     align-items: center;
-    margin-top: 10vh;
+    margin-top: 2.5vh;
 }
 
 .containerinverted img {
     max-width: 40vh;
-    margin-right: 10vh;
-    margin-left: 15vh;
-    margin-bottom:5vh;
+    max-height: 20vh;
+    margin-right: 5vh;
+    margin-left: 1.5vh;
+    margin-bottom: 10vh;
+    margin-top: 10vh;
 }
 
 .containerinverted p {
     flex: 1;
-    margin-left: 15vh;
+    margin-left: 5vh;
     font-family: cursive;
 }
 
@@ -362,6 +364,60 @@ img#competencias {
     main {
         width: 90vw;
         margin: auto;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        margin-top: 5vh;
+    }
+    
+    .container img {
+        max-width: 40vh;
+        margin-right: 10vh;
+        margin-left: 10vh;
+        margin-bottom: auto;
+    }
+    
+    .container p {
+        flex: 1;
+        margin-right: 15vh;
+        font-family: cursive;
+    }
+    
+    .containerinverted {
+        display: flex;
+        align-items: center;
+        margin-top: 10vh;
+    }
+    
+    .containerinverted img {
+        max-width: 35vh;
+        margin-right: 10vh;
+        margin-left: 15vh;
+        margin-bottom:5vh;
+    }
+    
+    .containerinverted p {
+        flex: 1;
+        margin-left: 15vh;
+        font-family: cursive;
+    }
+    
+    .containerfooter {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .containerfooter img {
+        max-width: 30vh;
+        margin-right: 1vh;
+        margin-left: 5vh;
+    }
+    
+    .containerfooter p {
+        flex: 1;
     }
 
     article>h2 {
