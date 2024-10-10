@@ -57,7 +57,7 @@ header>h1 {
 p {
   font-size: 3vh;
   font-style: none;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: cursive;
 }
 
 .container {
@@ -75,8 +75,8 @@ p {
 
 .container p {
   flex: 1;
+  font-family: cursive;
   margin-right: 0.5vh;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 2vh;
 }
 
@@ -97,7 +97,7 @@ p {
 .containerinverted p {
   flex: 1;
   margin-left: 5vh;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: cursive;
 }
 
 .containerfooter {
@@ -159,7 +159,10 @@ main {
 
 article>h2 {
   padding-bottom: 17px;
-
+  color: black;
+  margin-left: 5vh;
+  font-size: 5vh;
+  margin-top: 3vh;
 }
 
 article>p {
@@ -184,28 +187,12 @@ footer {
   margin-bottom: 5px;
 }
 
-
 img {
   display: block;
   margin: auto;
 }
 
-img#sobre {
-  display: block;
-}
 
-img#curiosidades {
-  display: none;
-}
-
-
-img#habilidades {
-  display: none;
-}
-
-img#competencias {
-  display: none;
-}
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
   body {
@@ -239,9 +226,11 @@ img#competencias {
 
   article>h2 {
     padding-bottom: 17px;
-    width: 90vw;
-    margin: auto;
-  }
+    color: black;
+    margin-left: 5vh;
+    font-size: 5vh;
+    margin-top: 3vh;
+}
 
   article>p {
     text-align: justify;
@@ -254,21 +243,7 @@ img#competencias {
     margin: auto;
   }
 
-  img#sobre {
-    display: none;
-  }
 
-  img#curiosidades {
-    display: block;
-  }
-
-  img#habilidades {
-    display: none;
-  }
-
-  img#competencias {
-    display: none;
-  }
 }
 
 @media screen and (min-width: 993px) and (max-width: 1200px) {
@@ -299,7 +274,11 @@ img#competencias {
 
   article>h2 {
     padding-bottom: 17px;
-  }
+    color: black;
+    margin-left: 5vh;
+    font-size: 5vh;
+    margin-top: 3vh;
+}
 
   article>p {
     text-align: justify;
@@ -310,22 +289,6 @@ img#competencias {
   footer {
     width: 90vw;
     margin: auto;
-  }
-
-  img#sobre {
-    display: none;
-  }
-
-  img#curiosidades {
-    display: none;
-  }
-
-  img#habilidades {
-    display: block;
-  }
-
-  img#competencias {
-    display: none;
   }
 }
 
@@ -371,7 +334,7 @@ img#competencias {
 .container p {
     flex: 1;
     margin-right: 15vh;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: cursive;
     font-size: 3vh;
 }
 
@@ -409,9 +372,13 @@ img#competencias {
     flex: 1;
 }
 
-  article>h2 {
-    padding-bottom: 17px;
-  }
+article>h2 {
+  padding-bottom: 17px;
+  color: black;
+  margin-left: 5vh;
+  font-size: 7vh;
+  margin-top: 3vh;
+}
 
   article>p {
     text-align: justify;
@@ -424,19 +391,5 @@ img#competencias {
     margin: auto;
   }
 
-  img#sobre {
-    display: none;
-  }
-
-  img#curiosidades {
-    display: none;
-  }
-
-  img#habilidades {
-    display: none;
-  }
-
-  img#competencias {
-    display: block;
-  }
+  
 }

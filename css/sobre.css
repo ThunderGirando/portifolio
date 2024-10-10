@@ -162,7 +162,8 @@ main {
 
 article>h2 {
     padding-bottom: 17px;
-
+    color: black;
+    margin-left: 1vh;
 }
 
 article>p {
@@ -193,22 +194,6 @@ img {
     margin: auto;
 }
 
-img#sobre {
-    display: block;
-}
-
-img#curiosidades {
-    display: none;
-}
-
-
-img#habilidades {
-    display: none;
-}
-
-img#competencias {
-    display: none;
-}
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body {
@@ -256,22 +241,6 @@ img#competencias {
         width: 90vw;
         margin: auto;
     }
-
-    img#sobre {
-        display: none;
-    }
-
-    img#curiosidades {
-        display: block;
-    }
-
-    img#habilidades {
-        display: none;
-    }
-
-    img#competencias {
-        display: none;
-    }
 }
 
 @media screen and (min-width: 993px) and (max-width: 1200px) {
@@ -300,51 +269,51 @@ img#competencias {
         align-items: center;
         margin-top: 5vh;
     }
-    
+
     .container img {
         max-width: 40vh;
         margin-right: 10vh;
         margin-left: 10vh;
         margin-bottom: auto;
     }
-    
+
     .container p {
         flex: 1;
         margin-right: 15vh;
         font-family: cursive;
     }
-    
+
     .containerinverted {
         display: flex;
         align-items: center;
         margin-top: 10vh;
     }
-    
+
     .containerinverted img {
         max-width: 35vh;
         margin-right: 10vh;
         margin-left: 15vh;
-        margin-bottom:5vh;
+        margin-bottom: 5vh;
     }
-    
+
     .containerinverted p {
         flex: 1;
         margin-left: 15vh;
         font-family: cursive;
     }
-    
+
     .containerfooter {
         display: inline-flex;
         align-items: center;
         justify-content: center;
     }
-    
+
     .containerfooter img {
         max-width: 30vh;
         margin-right: 1vh;
         margin-left: 5vh;
     }
-    
+
     .containerfooter p {
         flex: 1;
     }
@@ -369,21 +338,6 @@ img#competencias {
         margin: auto;
     }
 
-    img#sobre {
-        display: none;
-    }
-
-    img#curiosidades {
-        display: none;
-    }
-
-    img#habilidades {
-        display: block;
-    }
-
-    img#competencias {
-        display: none;
-    }
 }
 
 @media screen and (min-width: 1201px) {
@@ -406,57 +360,57 @@ img#competencias {
         display: inline-block;
         background-color: #21203f89;
     }
-    
+
     .container {
         display: flex;
         align-items: center;
         margin-top: 5vh;
     }
-    
+
     .container img {
         max-width: 40vh;
         margin-right: 10vh;
-        margin-left: 10vh;
+        margin-left: 5vh;
         margin-bottom: auto;
     }
-    
+
     .container p {
         flex: 1;
         margin-right: 15vh;
         font-family: cursive;
     }
-    
+
     .containerinverted {
         display: flex;
         align-items: center;
         margin-top: 10vh;
     }
-    
+
     .containerinverted img {
-        max-width: 35vh;
-        margin-right: 10vh;
-        margin-left: 15vh;
-        margin-bottom:5vh;
+        max-width: 40vh;
+        margin-right: 5vh;
+        margin-left: 10vh;
+        margin-bottom: 5vh;
     }
-    
+
     .containerinverted p {
         flex: 1;
         margin-left: 15vh;
         font-family: cursive;
     }
-    
+
     .containerfooter {
         display: inline-flex;
         align-items: center;
         justify-content: center;
     }
-    
+
     .containerfooter img {
         max-width: 30vh;
         margin-right: 1vh;
         margin-left: 5vh;
     }
-    
+
     .containerfooter p {
         flex: 1;
     }
@@ -468,6 +422,10 @@ img#competencias {
 
     article>h2 {
         padding-bottom: 17px;
+        color: black;
+        margin-left: 5vh;
+        font-size: 7vh;
+        margin-top: 3vh;
     }
 
     article>p {
@@ -479,21 +437,5 @@ img#competencias {
     footer {
         width: 90vw;
         margin: auto;
-    }
-
-    img#sobre {
-        display: none;
-    }
-
-    img#curiosidades {
-        display: none;
-    }
-
-    img#habilidades {
-        display: none;
-    }
-
-    img#competencias {
-        display: block;
     }
 }
