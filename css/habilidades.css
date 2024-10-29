@@ -378,7 +378,7 @@ img#competencias {
         margin-right: 5vh;
         font-family: cursive;
         flex-direction: column;
-        font-size: 5vh;
+        font-size: 3vh;
     }
 
     .containerinverted {
@@ -391,15 +391,13 @@ img#competencias {
         max-width: 50vh;
         margin-right: 10vh;
         margin-left: 15vh;
-
     }
 
     .containerinverted p {
         flex: 1;
         margin-left: 15vh;
         font-family: cursive;
-
-        font-size: 5vh;
+        font-size: 3vh;
     }
 
     .containerfooter {

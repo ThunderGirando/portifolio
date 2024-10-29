@@ -378,6 +378,7 @@ img {
         flex: 1;
         margin-right: 15vh;
         font-family: cursive;
+        font-size: 3vh;
     }
 
     .containerinverted {
@@ -397,6 +398,7 @@ img {
         flex: 1;
         margin-left: 15vh;
         font-family: cursive;
+        font-size: 3vh;
     }
 
     .containerfooter {
