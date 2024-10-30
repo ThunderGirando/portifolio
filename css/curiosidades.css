@@ -71,7 +71,7 @@ p {
 }
 
 .container img {
-    max-width: 28vh;
+    max-width: 20vh;
     margin-right: 1.5vh;
     margin-left: 1vh;
     margin-bottom: auto;
@@ -90,8 +90,7 @@ p {
 }
 
 .containerinverted img {
-    max-width: 30vh;
-
+    max-width: 20vh;
     margin-right: 1vh;
     margin-left: 1.5vh;
     margin-bottom: 10vh;
@@ -163,6 +162,7 @@ main {
 
 article>h2 {
     padding-bottom: 17px;
+    color: black;
 
 }
 
